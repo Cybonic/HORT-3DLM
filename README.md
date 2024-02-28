@@ -26,7 +26,7 @@ Trajectory of each sequence and Recording setups
   <img src="figs/robots.jpg" width="290" /> 
 </p>
 
-#### Aquistion Setup 
+#### Aquisition Setup 
 - ***Sequence ON23*** was recorded with an 16-beam Ouster 3D LiDAR and an SBG GNSS/INS system (without RTK) mounted on a Clearpath Husky mobile platform. To address the low LiDAR resolution, the original scans were merged to increase point density, resulting in sub-maps with approximately 100k points per sub-map. This operation reduced the original sequence from 25836 scans to 3086 sub-maps in total.
 
 - ***Sequence GTJ23*** was recorded in June with a 64-beam Ouster 3D LiDAR mounted on a Clearpath Jackal mobile platform. Due to signal interference caused by the greenhouse structure, the GNSS signal was unreliable. Therefore, the ground-truth positions were computed using a SLAM approach.
