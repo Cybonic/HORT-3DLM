@@ -47,10 +47,10 @@ The ***Seq.*** column contains the sequence names. The ***M***, ***Y***, and ***
 ### V1.0:
 These sequences were recorded in England, UK, using a Clearpath Husky mobile robot equipped with a Velodyne VLP32 3D LiDAR (10Hz) and a ZED-F9P RTK-GPS (5Hz).
 
-- OJ23: recorded in November 2022,
-- OJ22: recorded in November 2022,
+- OJ23: orchards,
+- OJ22: orchards,
 - SJ23: strawberries within polytunnels with a table-top growing system.
-- ON22: recorded in November 2022, in an orchard in Metz, France.
+- ON22: orchards
 
 
 ![Figure](figs/horto-3dlm.png)
