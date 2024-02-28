@@ -55,3 +55,4 @@ Trajectory of each sequence and Recording setups
 
 ### TO-DO
 - Add Sensor TFs
+- Add Dataset structure
