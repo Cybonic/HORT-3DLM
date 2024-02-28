@@ -23,7 +23,7 @@ The HORTO-3DLM Dataset contains 3D LiDAR and GNSS/localization data for the purp
 ![Figure](figs/3dmap.jpg) 
 
 Trajectory of each sequence and Recording setups
-<p float="center">
+<p align="center">
   <img src="figs/sequences.jpg" width="330" />
   <img src="figs/robots.jpg" width="290" /> 
 </p>
