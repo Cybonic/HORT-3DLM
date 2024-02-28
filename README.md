@@ -9,37 +9,53 @@ The HORTO-3DLM Dataset contains 3D LiDAR and GNSS/localization data for the purp
 3. [Citation](#3-citation)
 
 ## 1. Updates 
-- **1/03/2024** HORTO-3DLM v2.0 added GTJ34 and ON22 sequences
-- **1/02/2024** HORTO-3DLM v1.0 Uploaded
+- **25/02/2024** HORTO-3DLM v2.0 added GTJ34 and ON22 sequences
+- **1/12/2024** HORTO-3DLM v1.0 Uploaded
 
 
 ## 2. Dataset
 
-### V2.0: 
+***Table Caption: Summary of all sequences***
 
-- GTJ23: recorded in  tomato plantation within a greenhouse, recorded in Coimbra, Portugal.
-- ON23: recorded in November 2023, in an orchard in Metz, France.
+The ***Seq.*** column contains the sequence names. The ***M***, ***Y***, and ***C*** columns refer to the month, year, and country of recording, respectively. The total distance (***Dist***) of each sequence is measured in meters, while the scan size refers to the number of points in each scan.
+
+
+| Seq.  | M    | Y    | C  | Nº Scans | Nº Rows | Dist. [m] | Scan Size | Plantation Type       |
+|-------|------|------|----|----------|---------|-----------|-----------|-----------------------|
+| ON22  | Nov. | 2022 | UK | 7974     | 4       | 514       | 48k       | Apple (open)          |
+| OJ22  | July | 2022 | UK | 4361     | 3       | 206       | 50k       | Apple (open)          |
+| OJ23  | June | 2023 | UK | 7229     | 3       | 459       | 46k       | Cherry (open)         |
+| SJ23  | June | 2023 | UK | 6389     | 3       | 742       | 48k       | Strawberry (polytunnels) |
+| ON23  | Nov. | 2023 | FR | 3086     | 5       | 966       | 105k      | Apple (open)          |
+| GTJ23 | June | 2023 | PT | 661      | 3       | 202       | 60k       | Tomato (greenhouse)   |
+
+
+### Trajectories and recording setups
+
+<p align="center">
+  <img src="figs/sequences.jpg" width="400" />
+  <img src="figs/robots.jpg" width="350" /> 
+</p>
+
+
+***Sequence ON23*** was recorded in November 2023, in an orchard in Metz, France,  with an 16-beam Ouster 3D LiDAR and an SBG GNSS/INS system (without RTK) mounted on a Clearpath Husky mobile platform. To address the low LiDAR resolution, the original scans were merged to increase point density, resulting in sub-maps with approximately 100k points per sub-map. This operation reduced the original sequence from 25836 scans to 3086 sub-maps in total.
+
+***Sequence GTJ23*** was recorded in June of 2023, in a tomato plantation within a greenhouse, in Coimbra, Portugal,  with a 64-beam Ouster 3D LiDAR mounted on a Clearpath Jackal mobile platform. Due to signal interference caused by the greenhouse structure, the GNSS signal was unreliable. Therefore, the ground-truth positions were computed using a SLAM approach.
 
 ![Figure](figs/3dmap.jpg) 
 
-Trajectory of each sequence and Recording setups
-<p align="center">
-  <img src="figs/sequences.jpg" width="330" />
-  <img src="figs/robots.jpg" width="290" /> 
-</p>
+### V1.0:
+These sequences were recorded in England, UK, using a Clearpath Husky mobile robot equipped with a Velodyne VLP32 3D LiDAR (10Hz) and a ZED-F9P RTK-GPS (5Hz).
 
-#### Aquisition Setup 
+- OJ23: recorded in November 2022,
+- OJ22: recorded in November 2022,
+- SJ23: strawberries within polytunnels with a table-top growing system.
+- ON22: recorded in November 2022, in an orchard in Metz, France.
 
-- ***Sequence ON23*** was recorded with an 16-beam Ouster 3D LiDAR and an SBG GNSS/INS system (without RTK) mounted on a Clearpath Husky mobile platform. To address the low LiDAR resolution, the original scans were merged to increase point density, resulting in sub-maps with approximately 100k points per sub-map. This operation reduced the original sequence from 25836 scans to 3086 sub-maps in total.
 
-- ***Sequence GTJ23*** was recorded in June with a 64-beam Ouster 3D LiDAR mounted on a Clearpath Jackal mobile platform. Due to signal interference caused by the greenhouse structure, the GNSS signal was unreliable. Therefore, the ground-truth positions were computed using a SLAM approach.
-
+![Figure](figs/horto-3dlm.png)
 
  
-### V1.0: Original HORTO-3DLM recorded in the UK
-
- ![Figure](figs/horto-3dlm.png)
-
 
 ## Citation:
 ```
