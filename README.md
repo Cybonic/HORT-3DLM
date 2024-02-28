@@ -8,28 +8,34 @@ The HORTO-3DLM Dataset contains 3D LiDAR and GNSS/localization data for the purp
 2. [Dataset](#2-dataset)
 
 ## 1. Updates 
-- **1/02/2024** HORTO-3DLM v1.0 Uploaded
 - **1/03/2024** HORTO-3DLM v2.0 added GTJ34 and ON22 sequences
+- **1/02/2024** HORTO-3DLM v1.0 Uploaded
 
 
 ## 2. Dataset
 
 ### V2.0: 
-#### Sequences GTJ23 and ON22, recorded in Metz, France and Coimbra, Portugal.
-![Figure](figs/3dmap.jpg)
-![Figure](figs/sequences.jpg)
+- GTJ23: recorded in  tomato plantation within a greenhouse, recorded in Coimbra, Portugal.
+- ON23: recorded in November 2023, in an orchard in Metz, France.
 
-#### Aquistion Equipement 
-- Sequence ON23 was captured in November with an 16-beam Ouster 3D LiDAR and an SBG GNSS/INS system (without RTK) mounted on a Clearpath Husky mobile platform. 
+![Figure](figs/3dmap.jpg) 
 
+Trajectory of each sequence and Recording setups
+<p float="left">
+  <img src="figs/sequences.jpg" width="330" />
+  <img src="figs/robots.jpg" width="290" /> 
+</p>
 
+#### Aquistion Setup 
+- ***Sequence ON23*** was recorded with an 16-beam Ouster 3D LiDAR and an SBG GNSS/INS system (without RTK) mounted on a Clearpath Husky mobile platform. To address the low LiDAR resolution, the original scans were merged to increase point density, resulting in sub-maps with approximately 100k points per sub-map. This operation reduced the original sequence from 25836 scans to 3086 sub-maps in total.
 
-![Figure](figs/robots.jpg)
+- ***Sequence GTJ23*** was recorded in June with a 64-beam Ouster 3D LiDAR mounted on a Clearpath Jackal mobile platform. Due to signal interference caused by the greenhouse structure, the GNSS signal was unreliable. Therefore, the ground-truth positions were computed using a SLAM approach.
+
 
  
 ### V1.0: Original HORTO-3DLM recorded in the UK
-![Figure](figs/horto-3dlm.png)
 
+ ![Figure](figs/horto-3dlm.png)
 
 
 
