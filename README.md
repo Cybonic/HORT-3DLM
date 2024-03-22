@@ -1,7 +1,7 @@
 # HORTO-3DLM Dataset
 The HORTO-3DLM Dataset contains 3D LiDAR and GNSS/localization data for the purpose of 3D LiDAR-based place recognition, localization and mapping in horticultural environments.
 
-## [Data Download](https://nas-greenbotics.isr.uc.pt/drive/d/s/x4eZ5aPL96blS0i7xNKIl0iJOtkdU7QR/h3YJb7wuqCZpV9NNxgeITnGTRsDJeVNY-a7eAQXUnGQs#file_id=799704328662196403) | 
+## [Data Download](https://nas-greenbotics.isr.uc.pt/drive/d/f/xlBvECKhyOdCECr8ybsjCbo5VSv8Y2Qe) | 
 
 ## Content
 1. [Updates](#1-updates)
