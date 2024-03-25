@@ -79,6 +79,17 @@ HORTO-3DLM
         |   └── xxxxxxx.bin
         ├── triplet
         |   └── ground_truth_ar0.5m_nr10m_pr2m.pkl
+        ├── extracted_info.txt
+        ├── gps.txt
+        ├── gps.kmz
+        ├── gps_timestamp.txt
+        ├── point_cloud_timestamp.txt
+        ├── point_row_labels.pkl
+        ├── positions.txt
+        ├── positions_timestamp.txt
+        ├── static_tf.txt
+        ├── tf_poses.txt
+        └── tf_poses_timestamp.txt
 
 ```
 
