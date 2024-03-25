@@ -47,13 +47,41 @@ The ***Seq.*** column contains the sequence names. The ***M***, ***Y***, and ***
 ### V1.0:
 These sequences were recorded in England, UK, using a Clearpath Husky mobile robot equipped with a Velodyne VLP32 3D LiDAR (10Hz) and a ZED-F9P RTK-GPS (5Hz).
 
+![Figure](figs/v1.png) 
+
 - OJ23: orchards,
 - OJ22: orchards,
 - SJ23: strawberries within polytunnels with a table-top growing system.
 - ON22: orchards
 
 
+### 3D Maps
 ![Figure](figs/horto-3dlm.png)
+
+
+## Structure
+
+```
+HORTO-3DLM
+├── GT23 
+├── OJ22
+├── OJ23
+├── ON22
+├── ON23
+└── SJ23
+    └── extracted
+        ├── eval
+        |   └──ground_truth_loop_range_10m.pkl 
+        ├── point_cloud
+        |   ├── 0000000.bin
+        |   ├── 0000001.bin
+        |   ├── ...
+        |   └── xxxxxxx.bin
+        ├── triplet
+        |   └── ground_truth_ar0.5m_nr10m_pr2m.pkl
+
+```
+
 
  
 
