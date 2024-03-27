@@ -30,7 +30,7 @@ The ***Seq.*** column contains the sequence names. The ***M***, ***Y***, and ***
 | GTJ23 | June | 2023 | PT | 661      | 3       | 202       | 60k       | Tomato (greenhouse)   |
 
 
-### Trajectories and recording setups
+### Trajectories with segment labels and recording setups
 
 <p align="center">
   <img src="figs/sequences.jpg" width="400" />
@@ -93,8 +93,21 @@ HORTO-3DLM
 
 ```
 
-
- 
+### Content:
+ - **eval/ground_truth_loop_range_10m.pkl:** pickle file with the ground truth data for evaluation(testing), containing anchors/positives indices for 10m range loops.
+ - **point_cloud/:** Folder with the point clouds.
+ - **triplet/ground_truth_ar0.5m_nr10m_pr2m.pkl** pickle file with the ground truth data for training, containing anchors, positives and negatives. The 0.5m between anchors; the positives were selected from within a 2m range; and negatives were selected from outside a 10m range.  
+- **extracted_info.txt:** some info from the extracted data;
+- **gps.txt:** GNSS data in UTM reference system.
+- **gps.kmz:** GNSS data for visualization on maps.
+- **gps_timestamp.txt:** timestamps for GNSS data.
+- **point_cloud_timestamp.txt:** timestamps for point cloud. row index 00 -> points cloud 00000.bin.
+- **point_row_labels.pkl:** segment labels for each position data.    
+- **positions.txt:** position data with (x,y,z), used in place recognition for ground truth.
+- **positions_timestamp.txt:** timestamps for position data 
+- **static_tf.txt:** static tf between base_link and LiDAR
+- **tf_poses.txt:** pose data in the format of transformation matrix flattened to fit one file row.  
+- **tf_poses_timestamp.txt:** timestamp of the tf_pose.txt data.
 
 ## Citation:
 ```
