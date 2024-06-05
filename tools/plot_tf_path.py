@@ -38,7 +38,7 @@ def load_pose(file:str)->np.ndarray:
 
 def main(args):
     
-    sequence_path = os.path.join(args.root,"HORTO-3DLM",args.sequence,'slam','LIO_SAM_poses.txt')
+    sequence_path = os.path.join(args.root,"HORTO-3DLM",args.sequence,'slam','LIO_SAM_E4.txt')
     # load poses from txt
     tfs,frame_ids = load_pose(sequence_path)
     

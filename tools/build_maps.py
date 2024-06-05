@@ -58,7 +58,7 @@ def main(args):
         scan.open_scan(pcd_file)
         points,remission = scan.get_points()
         tf = tfs[i]
-        #gtf = np.dot(tf,gtf)
+        
         source = o3d.geometry.PointCloud()
         source.points = o3d.utility.Vector3dVector(points)
         source_down = source.voxel_down_sample(voxel_size=0.1)
