@@ -1,9 +1,9 @@
 # HORTO-3DLM Dataset
 The HORTO-3DLM Dataset contains 3D LiDAR and GNSS/localization data for the purpose of 3D LiDAR-based place recognition, localization and mapping in horticultural environments.
 
-## [Download Place Recognition Dataset](https://nas-greenbotics.isr.uc.pt/drive/d/s/xlBvECKhyOdCECr8ybsjCbo5VSv8Y2Qe/kDgkBK8she3fivIYC9GtYmCEjnocr250-4btgX1UkOgs) | 
 
-## [Download ROSBAGS](https://nas-greenbotics.isr.uc.pt/drive/d/s/xlBvECKhyOdCECr8ybsjCbo5VSv8Y2Qe/kDgkBK8she3fivIYC9GtYmCEjnocr250-4btgX1UkOgs) | 
+### [Download Place Recognition Dataset](https://nas-greenbotics.isr.uc.pt/drive/d/s/xlBvECKhyOdCECr8ybsjCbo5VSv8Y2Qe/kDgkBK8she3fivIYC9GtYmCEjnocr250-4btgX1UkOgs) 
+
 
 ## Content
 1. [Updates](#1-updates)
@@ -11,6 +11,7 @@ The HORTO-3DLM Dataset contains 3D LiDAR and GNSS/localization data for the purp
 3. [Citation](#3-citation)
 
 ## 1. Updates 
+- **11/10/2024** Added Ros Bag files
 - **25/02/2024** HORTO-3DLM v2.0 added GTJ34 and ON22 sequences
 - **1/12/2024** HORTO-3DLM v1.0 Uploaded
 
