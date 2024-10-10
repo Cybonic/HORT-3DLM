@@ -122,8 +122,17 @@ HORTO-3DLM
 }
 ```
 
+```
+@ARTICLE{10706020,
+        author={Barros, T. and Garrote, L. and Conde, P. and Coombes, M.J. and Liu, C. and Premebida, C. and Nunes, U.J.},
+        journal={IEEE Robotics and Automation Letters}, 
+        title={PointNetPGAP-SLC: A 3D LiDAR-Based Place Recognition Approach With Segment-Level Consistency Training for Mobile Robots in Horticulture}, 
+        year={2024},
+        pages={1-8},
+        doi={10.1109/LRA.2024.3475044}
+  }
+```
 
 ### TO-DO
 - Add information
 - Add Sensor TFs
-- Add Dataset structure
