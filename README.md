@@ -1,7 +1,9 @@
 # HORTO-3DLM Dataset
 The HORTO-3DLM Dataset contains 3D LiDAR and GNSS/localization data for the purpose of 3D LiDAR-based place recognition, localization and mapping in horticultural environments.
 
-## [Data Download](https://nas-greenbotics.isr.uc.pt/drive/d/f/xlBvECKhyOdCECr8ybsjCbo5VSv8Y2Qe) | 
+## [Download Place Recognition Dataset](https://nas-greenbotics.isr.uc.pt/drive/d/s/xlBvECKhyOdCECr8ybsjCbo5VSv8Y2Qe/kDgkBK8she3fivIYC9GtYmCEjnocr250-4btgX1UkOgs) | 
+
+## [Download ROSBAGS](https://nas-greenbotics.isr.uc.pt/drive/d/s/xlBvECKhyOdCECr8ybsjCbo5VSv8Y2Qe/kDgkBK8she3fivIYC9GtYmCEjnocr250-4btgX1UkOgs) | 
 
 ## Content
 1. [Updates](#1-updates)
@@ -20,14 +22,14 @@ The HORTO-3DLM Dataset contains 3D LiDAR and GNSS/localization data for the purp
 The ***Seq.*** column contains the sequence names. The ***M***, ***Y***, and ***C*** columns refer to the month, year, and country of recording, respectively. The total distance (***Dist***) of each sequence is measured in meters, while the scan size refers to the number of points in each scan.
 
 
-| Seq.  | M    | Y    | C  | Nº Scans | Nº Rows | Dist. [m] | Scan Size | Plantation Type       |
-|-------|------|------|----|----------|---------|-----------|-----------|-----------------------|
-| ON22  | Nov. | 2022 | UK | 7974     | 4       | 514       | 48k       | Apple (open)          |
-| OJ22  | July | 2022 | UK | 4361     | 3       | 206       | 50k       | Apple (open)          |
-| OJ23  | June | 2023 | UK | 7229     | 3       | 459       | 46k       | Cherry (open)         |
-| SJ23  | June | 2023 | UK | 6389     | 3       | 742       | 48k       | Strawberry (polytunnels) |
-| ON23  | Nov. | 2023 | FR | 3086     | 5       | 966       | 105k      | Apple (open)          |
-| GTJ23 | June | 2023 | PT | 661      | 3       | 202       | 60k       | Tomato (greenhouse)   |
+| Seq.  | M    | Y    | C  | Nº Scans | Nº Rows | Dist. [m] | Scan Size | Plantation Type       |   ROSBags  |
+|-------|------|------|----|----------|---------|-----------|-----------|-----------------------|------------|
+| ON22  | Nov. | 2022 | UK | 7974     | 4       | 514       | 48k       | Apple (open)          | [Download Link](https://nas-greenbotics.isr.uc.pt/drive/d/s/x4fX40E778VYIKB5vAl3ZdQmtM0zcl4i/ejhgJk-mZTt5Gd1OizUclrr7uUj26JQI-erBAEPREvAs)
+| OJ22  | July | 2022 | UK | 4361     | 3       | 206       | 50k       | Apple (open)          | [Download Link](https://nas-greenbotics.isr.uc.pt/drive/d/s/x4fWxJWA4EsiV9MxxavZtpvTOBsEqxi8/EOv3MCribsceUr7y0uesc8NcrCPEzdF7-ibBgGzNFvAs)
+| OJ23  | June | 2023 | UK | 7229     | 3       | 459       | 46k       | Cherry (open)         | [Download Link](https://nas-greenbotics.isr.uc.pt/drive/d/s/x4fX1lqfCUdk0UzbIeXMYNkdiyScooxz/ToAVnL93qFX6hADup6IIiiFwovjcOiS3-mrAgsGhFvAs) |
+| SJ23  | June | 2023 | UK | 6389     | 3       | 742       | 48k       | Strawberry (polytunnels) |  [Download Link](https://nas-greenbotics.isr.uc.pt/drive/d/s/x4fWufaoRocE1qnuIT9jpIuW9ocKD5mY/MR0wlhXUeQQgwSpvsB47mlTgXruKouHV-qbAgF4tFvAs) |
+| ON23  | Nov. | 2023 | FR | 3086     | 5       | 966       | 105k      | Apple (open)          |  [Download Link](https://nas-greenbotics.isr.uc.pt/drive/d/s/x4h45cHubOv5pIGf1bqeQuLuKzXV583q/HyrVas7MX7XxBQ81Ch6xkCNGS-eZBrek-xbDghrxFvAs) |
+| GTJ23 | June | 2023 | PT | 661      | 3       | 202       | 60k       | Tomato (greenhouse)   | [Download Link](https://nas-greenbotics.isr.uc.pt/drive/d/s/x4eZ82yjaMHLRWjHG21lLxUHtiLpIB0e/J57UdN7j4eL8MdDTFHBck0kEKq4RIulq-z7dATNQVbgs) |
 
 
 ### Trajectories with segment labels and recording setups
